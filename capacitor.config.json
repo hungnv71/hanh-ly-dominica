@@ -1,0 +1,6 @@
+{
+  "appId": "vn.hung.hanhly",
+  "appName": "Hành lý Dominica",
+  "webDir": "www",
+  "android": { "allowMixedContent": false }
+}

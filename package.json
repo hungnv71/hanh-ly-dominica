@@ -1,0 +1,13 @@
+{
+  "name": "hanh-ly-dominica",
+  "version": "1.0.0",
+  "description": "Checklist hành lý đi Dominica (Android, chạy offline)",
+  "private": true,
+  "scripts": { "sync": "cap sync android" },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2"
+  }
+}

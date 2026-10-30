@@ -1,0 +1,13 @@
+node_modules/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+shots/
+*.log
+du_lieu_thu_chi_no.json
+test_import.js
+e2e.py
+*.xlsx
+android/app/src/main/assets/public/
+android/capacitor-cordova-android-plugins/

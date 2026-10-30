@@ -1,0 +1,60 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Chuẩn bị Android SDK có sẵn trên máy build
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKM" --licenses > /dev/null || true
+          "$SDKM" "platforms;android-36" "build-tools;36.0.0" "platform-tools" > /dev/null
+          echo "sdk.dir=$ANDROID_HOME" > android/local.properties
+
+      - name: Cài thư viện và đồng bộ web -> Android
+        run: |
+          npm ci || npm install
+          npx cap sync android
+
+      - name: Build APK (debug, cài trực tiếp được)
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon --stacktrace
+
+      - name: Đổi tên file
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk HanhLyDominica.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HanhLyDominica-apk
+          path: HanhLyDominica.apk
+
+      - name: Đăng APK lên mục Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: Hành lý Dominica – bản ${{ github.run_number }}
+          body: File cài đặt Android. Tải HanhLyDominica.apk rồi mở trên điện thoại để cài.
+          files: HanhLyDominica.apk
+          make_latest: true

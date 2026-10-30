@@ -1,0 +1,365 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#0B7A80">
+<title>Hành lý Dominica</title>
+<style>
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/be-vietnam-pro-vietnamese-400-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/be-vietnam-pro-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/be-vietnam-pro-vietnamese-500-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/be-vietnam-pro-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/be-vietnam-pro-vietnamese-600-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/be-vietnam-pro-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/barlow-condensed-vietnamese-500-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/barlow-condensed-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/barlow-condensed-vietnamese-600-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/barlow-condensed-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/barlow-condensed-vietnamese-700-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/barlow-condensed-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+/* Layout: one-column phone app — sticky header (progress + scale readings), filter chips, grouped tick list, bottom sheet for editing */
+:root{
+  --bg:#F3F6F7; --surface:#FFFFFF; --ink:#13232F; --muted:#5B6B76; --line:#DCE3E6;
+  --accent:#0B7A80; --accent-ink:#FFFFFF; --accent-soft:#DDF0F0;
+  --ok:#2E8540; --warn:#B7791F; --bad:#C2362B; --skip:#9AA7AF;
+  --f-display:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E171D; --surface:#16232B; --ink:#E6EEF1; --muted:#93A4AE; --line:#26363F;
+  --accent:#3FB8BE; --accent-ink:#06191B; --accent-soft:#16353A;
+  --ok:#5DBB6E; --warn:#E0A84A; --bad:#F06A5E; --skip:#5E6E77; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E171D; --surface:#16232B; --ink:#E6EEF1; --muted:#93A4AE; --line:#26363F;
+  --accent:#3FB8BE; --accent-ink:#06191B; --accent-soft:#16353A;
+  --ok:#5DBB6E; --warn:#E0A84A; --bad:#F06A5E; --skip:#5E6E77; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+button,input{-webkit-user-select:none;user-select:none}input{-webkit-user-select:text;user-select:text}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;-webkit-tap-highlight-color:transparent}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:640px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+header .wrap{padding-block:12px 10px;display:grid;gap:10px}
+.top{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+h1{font-family:var(--f-display);font-weight:700;font-size:26px;letter-spacing:.02em;text-transform:uppercase;margin:0;line-height:1}
+h1 small{display:block;font-family:var(--f-body);font-size:12px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted);margin-top:4px}
+.sync{font-size:11px;color:var(--muted);white-space:nowrap;display:flex;align-items:center;gap:6px}
+.sync i{width:7px;height:7px;border-radius:50%;background:var(--skip);display:inline-block}
+.sync.on i{background:var(--ok)} .sync.busy i{background:var(--warn)}
+.tabs{display:grid;grid-template-columns:1fr 1fr;background:var(--bg);border-radius:10px;padding:3px;gap:3px}
+.tabs button{font:600 14px var(--f-body);border:0;background:transparent;color:var(--muted);padding:8px 6px;border-radius:8px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.prog{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted)}
+.prog .bar{flex:1;height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.prog .bar b{display:block;height:100%;background:var(--accent);transition:width .25s}
+.prog strong{font-family:var(--f-display);font-size:18px;color:var(--ink);font-variant-numeric:tabular-nums}
+main .wrap{padding-block:14px 120px;display:grid;gap:14px}
+.scale{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.gauge{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 10px 10px;display:grid;gap:6px;min-width:0}
+.gauge .lbl{font-family:var(--f-display);font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.gauge .num{font-family:var(--f-display);font-weight:700;font-size:22px;line-height:1;font-variant-numeric:tabular-nums}
+.gauge .num span{font-size:14px;color:var(--muted);font-weight:500}
+.gauge .bar{height:5px;background:var(--line);border-radius:3px;overflow:hidden}
+.gauge .bar b{display:block;height:100%;background:var(--ok)}
+.gauge.warn .bar b{background:var(--warn)} .gauge.bad .bar b{background:var(--bad)}
+.gauge .st{font-size:11px;color:var(--muted)} .gauge.warn .st{color:var(--warn)} .gauge.bad .st{color:var(--bad);font-weight:600}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-inline:-2px;padding:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:500 13px var(--f-body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.chip.tgl[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.sec{display:grid;gap:0}
+.sec h2{font-family:var(--f-display);font-weight:600;font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px;display:flex;justify-content:space-between;gap:8px;text-wrap:balance}
+.sec h2 span{font-variant-numeric:tabular-nums;white-space:nowrap}
+.list{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.row{display:grid;grid-template-columns:44px minmax(0,1fr) 40px;align-items:center;border-top:1px solid var(--line);min-height:56px}
+.row:first-child{border-top:0}
+.tick{appearance:none;border:0;background:transparent;width:44px;height:100%;min-height:56px;display:grid;place-items:center;cursor:pointer;padding:0}
+.box{width:24px;height:24px;border:2px solid var(--line);border-radius:7px;display:grid;place-items:center;transition:background .15s,border-color .15s}
+.box svg{width:15px;height:15px;opacity:0;stroke:var(--accent-ink)}
+.row.done .box{background:var(--accent);border-color:var(--accent)} .row.done .box svg{opacity:1}
+.txt{padding:9px 4px 9px 0;cursor:pointer;min-width:0}
+.txt .n{font-weight:500;overflow-wrap:anywhere}
+.row.done .txt .n{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--skip)}
+.meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 8px;margin-top:2px;font-variant-numeric:tabular-nums}
+.loc{font-weight:600;color:var(--accent)}
+.note{font-size:12px;color:var(--muted);margin-top:2px}
+.row.skip{opacity:.5} .row.skip .box{border-style:dashed}
+.row.skip .meta .loc{color:var(--muted)}
+.more{appearance:none;border:0;background:transparent;color:var(--muted);width:40px;height:44px;cursor:pointer;border-radius:8px;font-size:20px;line-height:1}
+.empty{padding:20px;text-align:center;color:var(--muted);font-size:14px}
+.pre .row{grid-template-columns:minmax(0,1fr) 64px 64px}
+.pre .txt{padding:10px 8px 10px 12px;cursor:default}
+.pre .tick{width:64px}
+.prehead{display:grid;grid-template-columns:minmax(0,1fr) 64px 64px;font-family:var(--f-display);font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:0 0 6px}
+.prehead span{text-align:center}
+.pre .tick.on .box{background:var(--accent);border-color:var(--accent)} .pre .tick.on .box svg{opacity:1}
+.tools{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center}
+.btn{font:600 14px var(--f-body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:9px 14px;border-radius:10px;cursor:pointer}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.dng{color:var(--bad)}
+.btn.link{border:0;background:transparent;color:var(--muted);padding:6px 4px;font-weight:500;text-decoration:underline}
+.fab{position:fixed;right:max(16px,calc(env(safe-area-inset-right,0px) + 16px));bottom:calc(env(safe-area-inset-bottom,0px) + 18px);z-index:6;font:600 15px var(--f-body);background:var(--accent);color:var(--accent-ink);border:0;border-radius:999px;padding:13px 18px;box-shadow:0 4px 14px rgba(0,0,0,.22);cursor:pointer}
+.scrim{position:fixed;inset:0;background:rgba(5,15,20,.45);z-index:20}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:21;background:var(--surface);border-radius:16px 16px 0 0;max-height:88vh;overflow:auto;
+  padding:16px max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 16px) max(16px,env(safe-area-inset-left,0px))}
+.sheet .in{max-width:640px;margin:0 auto;display:grid;gap:14px}
+.sheet h3{margin:0;font-family:var(--f-display);font-size:20px;letter-spacing:.02em;text-transform:uppercase}
+.fld{display:grid;gap:6px}
+.fld label,.fld .l{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.fld input{font:500 16px var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;width:100%}
+.seg{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.seg button{font:500 13px var(--f-body);border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:9px 4px;border-radius:9px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.acts{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between}
+.acts .r{display:flex;gap:8px;margin-left:auto}
+.confirm{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:8px;font-size:14px}
+.settings{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+details.cfg{font-size:13px;color:var(--muted)}
+details.cfg summary{cursor:pointer;padding:2px 0}
+details.cfg .settings{margin-top:8px}
+details.cfg input{font:500 15px var(--f-body);width:100%;padding:7px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.hint{font-size:12px;color:var(--muted)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:380px){.gauge .num{font-size:19px}.pre .row,.prehead{grid-template-columns:minmax(0,1fr) 54px 54px}.pre .tick{width:54px}}
+</style>
+</head><body>
+
+
+<header><div class="wrap">
+  <div class="top">
+    <h1>Hành lý Dominica<small>2 vali ký gửi × 23 kg · xách tay 7 kg</small></h1>
+    <div class="sync on" id="sync"><i></i><span>Lưu trên máy</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button role="tab" id="tab-pack" aria-selected="true">Đồ mang theo</button>
+    <button role="tab" id="tab-pre" aria-selected="false">Trước bay 24h</button>
+  </div>
+  <div class="prog"><div class="bar"><b id="progbar" style="width:0"></b></div><strong id="progtxt">0/0</strong></div>
+</div></header>
+
+<main><div class="wrap" id="view"></div></main>
+<button class="fab" id="fab" type="button">+ Thêm món</button>
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true"><div class="in" id="sheetin"></div></div>
+
+<script id="seed" type="application/json">{"secs": [{"t": "A. GIẤY TỜ & TIỀN", "items": [{"id": "i1", "n": "Hộ chiếu (còn hạn ≥ 2 năm, đã có visa)", "q": 1, "w": 0.05, "l": "Mang theo người", "note": "Luôn để trên người, không ký gửi"}, {"id": "i2", "n": "CCCD", "q": 1, "w": 0.01, "l": "Mang theo người", "note": ""}, {"id": "i3", "n": "Vé máy bay / boarding pass (in + lưu offline)", "q": 1, "w": 0.02, "l": "Xách tay", "note": "Lưu cả terminal, giờ nối chuyến"}, {"id": "i4", "n": "E-Ticket Dominica + mã QR (in 1 bản + lưu offline)", "q": 1, "w": 0.02, "l": "Xách tay", "note": "Khai tại eticket.migracion.gob.do, xong trước ít nhất 1 ngày"}, {"id": "i5", "n": "Quyết định điều động / Giấy giới thiệu / HĐLĐ (bản in)", "q": 1, "w": 0.1, "l": "Xách tay", "note": "Dùng khi bị hỏi thêm tại khu nhập cảnh"}, {"id": "i6", "n": "Bản sao công chứng: bằng ĐH, khai sinh, bảng điểm TOEIC", "q": 1, "w": 0.2, "l": "Xách tay", "note": "Để trong túi hồ sơ chống nước"}, {"id": "i7", "n": "Ảnh thẻ dự phòng 4x6, 4x5, 4x4 (nền trắng)", "q": 10, "w": 0.005, "l": "Xách tay", "note": ""}, {"id": "i8", "n": "Giấy in: địa chỉ nơi ở, SĐT người đón, liên hệ khẩn cấp", "q": 1, "w": 0.01, "l": "Xách tay", "note": "Phòng khi điện thoại hết pin/mất mạng"}, {"id": "i9", "n": "Bằng lái xe (và bằng lái quốc tế nếu có)", "q": 1, "w": 0.01, "l": "Mang theo người", "note": "Kiểm tra giá trị sử dụng tại DR trước khi lái"}, {"id": "i10", "n": "Thẻ thanh toán quốc tế + 1 thẻ dự phòng", "q": 2, "w": 0.01, "l": "Mang theo người", "note": "Không để tất cả thẻ/tiền cùng một chỗ"}, {"id": "i11", "n": "USD mệnh giá nhỏ $1/$5/$10/$20", "q": 1, "w": 0.05, "l": "Mang theo người", "note": "Xe đẩy, nước, tip. Từ US$10.000 trở lên phải khai báo Hải quan"}]}, {"t": "B. ĐIỆN TỬ", "items": [{"id": "i12", "n": "Laptop + sạc", "q": 1, "w": 2.5, "l": "Xách tay", "note": "Tuyệt đối không ký gửi"}, {"id": "i13", "n": "Điện thoại + sạc + cáp dự phòng", "q": 1, "w": 0.4, "l": "Xách tay", "note": "Cài sẵn eSIM/roaming, Google Translate offline tiếng TBN"}, {"id": "i14", "n": "Pin dự phòng (≤ 20.000 mAh)", "q": 1, "w": 0.4, "l": "Xách tay", "note": "BẮT BUỘC xách tay, cấm ký gửi"}, {"id": "i15", "n": "Adapter chân dẹt Type A/B", "q": 3, "w": 0.05, "l": "Xách tay", "note": "Ổ cắm DR: 110–120V/60Hz, chân dẹt"}, {"id": "i16", "n": "Ổ cắm kéo dài nhỏ (loại 100–240V)", "q": 1, "w": 0.4, "l": "Vali 2", "note": "Cắm qua adapter, sạc nhiều thiết bị"}, {"id": "i17", "n": "Tai nghe", "q": 1, "w": 0.1, "l": "Xách tay", "note": ""}, {"id": "i18", "n": "Ổ cứng / USB sao lưu tài liệu", "q": 1, "w": 0.2, "l": "Xách tay", "note": "Sao lưu hồ sơ, tài liệu công việc"}, {"id": "i19", "n": "Chuột máy tính", "q": 1, "w": 0.1, "l": "Xách tay", "note": ""}]}, {"t": "C. QUẦN ÁO (khí hậu nóng ẩm quanh năm, có mùa mưa)", "items": [{"id": "i20", "n": "Áo sơ mi công sở", "q": 6, "w": 0.25, "l": "Vali 1", "note": "Ưu tiên vải mỏng, thoáng"}, {"id": "i21", "n": "Quần âu", "q": 4, "w": 0.45, "l": "Vali 1", "note": ""}, {"id": "i22", "n": "Bộ vest (họp đối tác, sự kiện)", "q": 1, "w": 1.5, "l": "Vali 1", "note": "Gấp trong túi đựng vest"}, {"id": "i23", "n": "Cà vạt", "q": 2, "w": 0.1, "l": "Vali 1", "note": ""}, {"id": "i24", "n": "Thắt lưng", "q": 2, "w": 0.15, "l": "Vali 1", "note": ""}, {"id": "i25", "n": "Áo phông / polo", "q": 6, "w": 0.2, "l": "Vali 1", "note": ""}, {"id": "i26", "n": "Quần áo mặc nhà, quần short", "q": 4, "w": 0.25, "l": "Vali 1", "note": ""}, {"id": "i27", "n": "Quần áo lót", "q": 10, "w": 0.08, "l": "Vali 1", "note": ""}, {"id": "i200", "n": "Áo ba lỗ (mặc trong sơ mi)", "q": 5, "w": 0.08, "l": "Vali 1", "note": "Thấm mồ hôi dưới sơ mi"}, {"id": "i28", "n": "Tất", "q": 10, "w": 0.05, "l": "Vali 1", "note": ""}, {"id": "i29", "n": "Bộ đồ thể thao", "q": 2, "w": 0.4, "l": "Vali 1", "note": ""}, {"id": "i30", "n": "Áo khoác mỏng (máy bay, phòng lạnh)", "q": 1, "w": 0.5, "l": "Mang theo người", "note": "Mặc lên máy bay"}, {"id": "i31", "n": "Áo chống nắng dài tay (đi hiện trường)", "q": 2, "w": 0.3, "l": "Vali 1", "note": ""}, {"id": "i32", "n": "Quần dài đi hiện trường", "q": 2, "w": 0.6, "l": "Vali 1", "note": ""}, {"id": "i33", "n": "Mũ rộng vành / mũ lưỡi trai", "q": 1, "w": 0.15, "l": "Vali 1", "note": ""}, {"id": "i34", "n": "Đồ bơi", "q": 1, "w": 0.2, "l": "Vali 1", "note": ""}, {"id": "i35", "n": "1 bộ quần áo thay dự phòng", "q": 1, "w": 0.6, "l": "Xách tay", "note": "Phòng khi thất lạc vali"}]}, {"t": "D. GIÀY DÉP", "items": [{"id": "i36", "n": "Giày thể thao", "q": 1, "w": 0.8, "l": "Mang theo người", "note": "Đi trên máy bay"}, {"id": "i37", "n": "Giày da công sở", "q": 1, "w": 1.2, "l": "Vali 2", "note": "Nhét tất vào trong giày cho gọn"}, {"id": "i38", "n": "Giày đi hiện trường / giày bảo hộ", "q": 1, "w": 1.5, "l": "Vali 2", "note": "Khảo sát trạm BTS, tuyến cáp"}, {"id": "i39", "n": "Dép lê trong nhà", "q": 1, "w": 0.3, "l": "Vali 1", "note": ""}, {"id": "i40", "n": "Sandal", "q": 1, "w": 0.4, "l": "Vali 2", "note": ""}]}, {"t": "E. ĐỒ CÁ NHÂN", "items": [{"id": "i41", "n": "Bàn chải, kem đánh răng, chỉ nha khoa", "q": 1, "w": 0.3, "l": "Vali 1", "note": "Chất lỏng xách tay mỗi chai ≤ 100ml"}, {"id": "i42", "n": "Máy cạo râu / dao cạo", "q": 1, "w": 0.3, "l": "Vali 1", "note": "Kiểm tra dòng INPUT 100–240V"}, {"id": "i43", "n": "Sữa tắm, dầu gội (chai nhỏ, dùng tuần đầu)", "q": 1, "w": 0.8, "l": "Vali 1", "note": "Hết thì mua tại chỗ"}, {"id": "i44", "n": "Khăn tắm, khăn mặt", "q": 2, "w": 0.5, "l": "Vali 1", "note": ""}, {"id": "i45", "n": "Kem chống nắng SPF50+", "q": 2, "w": 0.15, "l": "Vali 1", "note": "Nắng Caribe rất gắt"}, {"id": "i46", "n": "Kem / xịt chống muỗi", "q": 1, "w": 0.2, "l": "Vali 1", "note": "Phòng sốt xuất huyết"}, {"id": "i47", "n": "Bấm móng tay, kéo nhỏ", "q": 1, "w": 0.1, "l": "Vali 1", "note": "Để ở vali ký gửi"}, {"id": "i48", "n": "Kính râm", "q": 1, "w": 0.1, "l": "Xách tay", "note": ""}, {"id": "i49", "n": "Kính mắt dự phòng (nếu dùng)", "q": 1, "w": 0.1, "l": "Xách tay", "note": ""}, {"id": "i50", "n": "Túi zip, túi giặt đồ", "q": 1, "w": 0.2, "l": "Vali 1", "note": ""}]}, {"t": "F. THUỐC", "items": [{"id": "i51", "n": "Thuốc điều trị cá nhân (nếu có) + đơn thuốc", "q": 1, "w": 0.2, "l": "Xách tay", "note": "Để xách tay, đủ dùng vài tháng"}, {"id": "i52", "n": "Thuốc hạ sốt, giảm đau (Paracetamol)", "q": 1, "w": 0.1, "l": "Vali 2", "note": "Để nguyên vỏ hộp, nhãn mác"}, {"id": "i53", "n": "Thuốc tiêu hóa, tiêu chảy, Oresol", "q": 1, "w": 0.3, "l": "Vali 2", "note": "Tuần đầu dễ bị rối loạn tiêu hóa"}, {"id": "i54", "n": "Thuốc cảm cúm, ho, dị ứng", "q": 1, "w": 0.2, "l": "Vali 2", "note": ""}, {"id": "i55", "n": "Dầu gió, cao dán", "q": 1, "w": 0.2, "l": "Vali 2", "note": ""}, {"id": "i56", "n": "Băng cá nhân, bông, povidine", "q": 1, "w": 0.3, "l": "Vali 2", "note": "Chất lỏng để vali ký gửi"}, {"id": "i57", "n": "Nhiệt kế", "q": 1, "w": 0.05, "l": "Vali 2", "note": ""}]}, {"t": "G. THỰC PHẨM (phải khai báo Hải quan DGA)", "items": [{"id": "i58", "n": "Mì / phở / bún gói", "q": 20, "w": 0.08, "l": "Vali 2", "note": "Đồ đóng gói, có nhãn mác"}, {"id": "i59", "n": "Gia vị khô (hạt nêm, tiêu, bột canh...)", "q": 1, "w": 1, "l": "Vali 2", "note": ""}, {"id": "i60", "n": "Nước mắm chai nhựa", "q": 1, "w": 0.6, "l": "Vali 2", "note": "Bọc 2 lớp túi zip chống rò"}, {"id": "i61", "n": "Trà", "q": 2, "w": 0.2, "l": "Vali 2", "note": ""}, {"id": "i62", "n": "Cà phê", "q": 2, "w": 0.5, "l": "Vali 2", "note": ""}, {"id": "i63", "n": "Đồ khô đóng gói (bánh, hạt)", "q": 1, "w": 1, "l": "Vali 2", "note": "Không mang hàng tươi sống. Ruốc, thịt/cá khô: kiểm tra quy định và khai báo"}]}, {"t": "H. CÔNG VIỆC & HỌC TẬP", "items": [{"id": "i64", "n": "Sổ tay, bút (1 bút mực xanh để xách tay)", "q": 1, "w": 0.3, "l": "Vali 2", "note": "Bút xanh dùng điền tờ khai trên máy bay"}, {"id": "i65", "n": "Tài liệu nghiệp vụ bản in (HD cấp phép BTS, cột cáp, phụ lục)", "q": 1, "w": 0.5, "l": "Vali 2", "note": "Bản mềm lưu laptop + offline"}, {"id": "i66", "n": "Giáo trình tiếng Tây Ban Nha", "q": 1, "w": 0.5, "l": "Vali 2", "note": ""}, {"id": "i67", "n": "Quà tặng nhỏ mang tính Việt Nam (đồng nghiệp, đối tác)", "q": 1, "w": 1.5, "l": "Vali 2", "note": "Gọn, nhẹ, không phải thực phẩm tươi"}, {"id": "i68", "n": "Đèn pin đội đầu", "q": 1, "w": 0.2, "l": "Vali 2", "note": "Hữu ích khi đi hiện trường, mất điện"}]}, {"t": "I. ĐỒ DÙNG KHÁC", "items": [{"id": "i69", "n": "Ô gấp", "q": 1, "w": 0.4, "l": "Vali 2", "note": ""}, {"id": "i70", "n": "Áo mưa mỏng", "q": 1, "w": 0.2, "l": "Vali 2", "note": ""}, {"id": "i71", "n": "Túi chống nước điện thoại", "q": 1, "w": 0.05, "l": "Xách tay", "note": ""}, {"id": "i72", "n": "Khóa vali TSA", "q": 2, "w": 0.05, "l": "Vali 1", "note": ""}, {"id": "i73", "n": "Cân hành lý cầm tay", "q": 1, "w": 0.15, "l": "Vali 2", "note": "Cân lại trước khi ra sân bay"}, {"id": "i74", "n": "Thẻ tên dán 2 mặt vali (tên + SĐT + điểm đến)", "q": 2, "w": 0.02, "l": "Vali 1", "note": "Chụp ảnh vali + tag hành lý trước khi ký gửi"}]}], "pre": [{"id": "p1", "n": "Hộ chiếu + visa, CCCD, giấy tờ công tác"}, {"id": "p2", "n": "Đã khai e-Ticket + lưu QR offline (ảnh thông tin hành khách + QR)"}, {"id": "p3", "n": "Vé máy bay / boarding pass, thông tin nối chuyến"}, {"id": "p4", "n": "Địa chỉ nơi ở, người đón, SĐT, biển số xe đón (nếu có)"}, {"id": "p5", "n": "USD mệnh giá nhỏ + thẻ thanh toán dự phòng (để 2 chỗ khác nhau)"}, {"id": "p6", "n": "Adapter chân dẹt + sạc + pin dự phòng trong hành lý xách tay"}, {"id": "p7", "n": "Thuốc cá nhân + đơn thuốc trong hành lý xách tay"}, {"id": "p8", "n": "Vali dán tên 2 mặt, khóa TSA, đã chụp ảnh vali"}, {"id": "p9", "n": "Cân lại 2 vali (≤ 23 kg/vali) và túi xách tay (≤ 7 kg)"}, {"id": "p10", "n": "SIM/eSIM/roaming đã kích hoạt; tài liệu công việc lưu offline"}, {"id": "p11", "n": "Chụp/ghim 6 câu tiếng Tây Ban Nha cơ bản trên điện thoại"}, {"id": "p12", "n": "Khai báo Hải quan nếu mang thực phẩm hoặc tiền mặt ≥ US$10.000"}]}</script>
+<script>
+(function(){
+const SEED=JSON.parse(document.getElementById('seed').textContent);
+const LOCS=["Vali 1","Vali 2","Xách tay","Mang theo người"];
+const SHORT={"Vali 1":"Vali 1","Vali 2":"Vali 2","Xách tay":"Xách tay","Mang theo người":"Người"};
+const KEY="hanhly-dominica-v1";
+const CHECK='<svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3.2 3L13 4.5"/></svg>';
+function blank(){return{packed:{},over:{},custom:[],pre:{},cfg:{"Vali 1":{lim:23,shell:4.5},"Vali 2":{lim:23,shell:4.5},"Xách tay":{lim:7,shell:1}},t:0}}
+let S=blank();
+try{const raw=localStorage.getItem(KEY);if(raw){S=Object.assign(blank(),JSON.parse(raw))}}catch(e){}
+let ui={tab:"pack",loc:"all",hide:false,edit:null,confirm:null};
+
+const fmt=n=>(Math.round(n*10)/10).toLocaleString('vi-VN',{minimumFractionDigits:1,maximumFractionDigits:1});
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function items(){
+  const out=[];
+  SEED.secs.forEach(sec=>{sec.items.forEach(it=>{const o=S.over[it.id]||{};out.push(Object.assign({},it,o,{sec:sec.t,base:true}))})});
+  S.custom.forEach(c=>{const o=S.over[c.id]||{};out.push(Object.assign({},c,o,{sec:"J. TỰ THÊM",base:false}))});
+  return out;
+}
+function weights(all){
+  const w={};LOCS.forEach(l=>w[l]=0);
+  all.forEach(it=>{if(!it.skip&&w[it.l]!==undefined)w[it.l]+=(+it.q||0)*(+it.w||0)});
+  return w;
+}
+
+/* ---------- persistence ---------- */
+let db=null,docRef=null,writing=false,dirty=false,timer=null,remoteOk=false;
+function setSync(mode,txt){const el=document.getElementById('sync');el.className='sync '+mode;el.querySelector('span').textContent=txt}
+function save(){
+  S.t=Date.now();
+  try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}
+  if(!docRef)return;
+  dirty=true;setSync('busy','Đang lưu…');
+  clearTimeout(timer);timer=setTimeout(flush,700);
+}
+async function flush(){
+  if(writing||!dirty||!docRef)return;
+  writing=true;dirty=false;
+  try{await docRef.set(JSON.parse(JSON.stringify(S)));setSync('on','Đã đồng bộ')}
+  catch(e){setSync('','Chỉ lưu trên máy');if(e&&(e.code==='invalid_argument'||e.code==='revoked'))docRef=null}
+  writing=false;if(dirty)flush();
+}
+(async function connect(){
+  if(!window.claude||!window.claude.use)return;
+  try{
+    const [d,u]=await Promise.all([claude.use("db"),claude.use("user")]);
+    if(!d||!u)return;
+    const id=await u.id(); if(!id)return;
+    db=d;docRef=db.doc("data/users/"+id+"/hanhly");
+    setSync('busy','Đang tải…');
+    docRef.onSnapshot(snap=>{
+      if(snap.metadata.hasPendingWrites)return;
+      remoteOk=true;
+      const r=snap.exists?snap.data():null;
+      if(r&&(r.t||0)>(S.t||0)){S=Object.assign(blank(),JSON.parse(JSON.stringify(r)));try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}render()}
+      else if((!r&&S.t)||(r&&(S.t||0)>(r.t||0))){dirty=true;flush()}
+      if(!writing&&!dirty)setSync('on','Đã đồng bộ');
+    },err=>{setSync('','Chỉ lưu trên máy');docRef=null});
+  }catch(e){}
+})();
+
+/* ---------- render ---------- */
+function render(){
+  document.getElementById('tab-pack').setAttribute('aria-selected',ui.tab==='pack');
+  document.getElementById('tab-pre').setAttribute('aria-selected',ui.tab==='pre');
+  document.getElementById('fab').hidden=ui.tab!=='pack';
+  const v=document.getElementById('view');
+  if(ui.tab==='pack')v.innerHTML=renderPack();else v.innerHTML=renderPre();
+}
+function gauge(l,w){
+  const c=S.cfg[l],tot=w+(+c.shell||0),left=c.lim-tot,pct=Math.min(100,tot/c.lim*100);
+  const cls=left<0?'bad':left<1.5?'warn':'';
+  const st=left<0?'Vượt '+fmt(-left)+' kg':'Còn '+fmt(left)+' kg';
+  return `<div class="gauge ${cls}"><div class="lbl">${SHORT[l]}</div><div class="num">${fmt(tot)}<span> / ${c.lim} kg</span></div><div class="bar"><b style="width:${pct}%"></b></div><div class="st">${st}</div></div>`;
+}
+function renderPack(){
+  const all=items(),w=weights(all);
+  const need=all.filter(i=>!i.skip),done=need.filter(i=>S.packed[i.id]).length;
+  setProg(done,need.length);
+  let h=`<section aria-label="Cân hành lý"><div class="scale">${gauge("Vali 1",w["Vali 1"])}${gauge("Vali 2",w["Vali 2"])}${gauge("Xách tay",w["Xách tay"])}</div>
+  <details class="cfg"><summary>Tính cả vỏ vali (${fmt(S.cfg["Vali 1"].shell)} / ${fmt(S.cfg["Vali 2"].shell)} / ${fmt(S.cfg["Xách tay"].shell)} kg) — sửa sau khi cân thật</summary>
+  <div class="settings">${["Vali 1","Vali 2","Xách tay"].map((l,k)=>`<label class="hint">Vỏ ${SHORT[l]} (kg)<input type="number" inputmode="decimal" step="0.1" min="0" id="shell-${k}" data-shell="${l}" value="${S.cfg[l].shell}"></label>`).join('')}</div>
+  <p class="hint">Khối lượng từng món là ước tính. Bấm ⋯ ở mỗi món để sửa số lượng, kg, vị trí hoặc đánh dấu không mang.</p></details></section>`;
+  h+=`<div class="chips" role="group" aria-label="Lọc theo vị trí">`+
+    [["all","Tất cả"]].concat(LOCS.map(l=>[l,SHORT[l]])).map(([k,t])=>`<button class="chip" data-loc="${esc(k)}" aria-pressed="${ui.loc===k}">${t}</button>`).join('')+
+    `<button class="chip tgl" data-hide="1" aria-pressed="${ui.hide}">Ẩn đã xếp</button></div>`;
+  const secs=[];const map={};
+  all.forEach(it=>{if(!map[it.sec]){map[it.sec]=[];secs.push(it.sec)}map[it.sec].push(it)});
+  let shown=0;
+  secs.forEach(s=>{
+    const arr=map[s].filter(it=>(ui.loc==='all'||it.l===ui.loc)&&!(ui.hide&&(S.packed[it.id]||it.skip)));
+    const totalIn=map[s].filter(it=>!it.skip&&(ui.loc==='all'||it.l===ui.loc));
+    if(!arr.length)return;shown+=arr.length;
+    const dn=totalIn.filter(it=>S.packed[it.id]).length;
+    h+=`<section class="sec"><h2><span>${esc(s.replace(/\s*\(.*\)$/,''))}</span><span>${dn}/${totalIn.length}</span></h2><div class="list">`+arr.map(rowHtml).join('')+`</div></section>`;
+  });
+  if(!shown)h+=`<div class="list"><div class="empty">${ui.hide?'Đã xếp hết các món trong mục này.':'Chưa có món nào ở vị trí này.'}</div></div>`;
+  h+=`<div class="tools"><span class="hint">${all.length} món · ${all.filter(i=>i.skip).length} không mang</span><button class="btn link" data-act="reset-pack">Bỏ tick tất cả</button></div>`;
+  if(ui.confirm==='reset-pack')h+=confirmBox('Bỏ tick tất cả các món đã xếp? Số lượng, vị trí và món tự thêm vẫn giữ nguyên.','do-reset-pack');
+  return h;
+}
+function rowHtml(it){
+  const done=!!S.packed[it.id];
+  const kg=(+it.q||0)*(+it.w||0);
+  return `<div class="row${done?' done':''}${it.skip?' skip':''}" data-id="${it.id}">
+   <button class="tick" data-tick="${it.id}" aria-label="${done?'Bỏ tick':'Đã xếp'}: ${esc(it.n)}" ${it.skip?'disabled':''}><span class="box">${CHECK}</span></button>
+   <div class="txt" data-tick="${it.skip?'':it.id}"><div class="n">${esc(it.n)}</div>
+   <div class="meta"><span class="loc">${it.skip?'Không mang':SHORT[it.l]||esc(it.l)}</span><span>SL ${esc(it.q)}</span><span>${kg>0&&kg<0.1?'<0,1':fmt(kg)} kg</span></div>
+   ${it.note?`<div class="note">${esc(it.note)}</div>`:''}</div>
+   <button class="more" data-edit="${it.id}" aria-label="Sửa ${esc(it.n)}">⋯</button></div>`;
+}
+function renderPre(){
+  let done=0;SEED.pre.forEach(p=>{const s=S.pre[p.id]||{};if(s.a&&s.b)done++});
+  setProg(done,SEED.pre.length);
+  let h=`<p class="hint" style="margin:0">Rà 1 lần tối hôm trước, 1 lần trước khi ra sân bay. Một mục tính là xong khi tick đủ cả 2 lần.</p>
+  <section class="sec pre"><div class="prehead"><span style="text-align:left">Việc cần kiểm tra</span><span>Tối trước</span><span>Trước đi</span></div><div class="list">`+
+  SEED.pre.map(p=>{const s=S.pre[p.id]||{};return `<div class="row${s.a&&s.b?' done':''}"><div class="txt"><div class="n">${esc(p.n)}</div></div>
+   <button class="tick${s.a?' on':''}" data-pre="${p.id}" data-k="a" aria-label="Tối trước: ${esc(p.n)}"><span class="box">${CHECK}</span></button>
+   <button class="tick${s.b?' on':''}" data-pre="${p.id}" data-k="b" aria-label="Trước khi đi: ${esc(p.n)}"><span class="box">${CHECK}</span></button></div>`}).join('')+
+  `</div></section><div class="tools"><span></span><button class="btn link" data-act="reset-pre">Bỏ tick danh sách 24h</button></div>`;
+  if(ui.confirm==='reset-pre')h+=confirmBox('Bỏ tick toàn bộ danh sách 24h trước khi bay?','do-reset-pre');
+  return h;
+}
+function confirmBox(msg,act){return `<div class="confirm"><span>${msg}</span><div class="acts"><div class="r"><button class="btn" data-act="cancel">Huỷ</button><button class="btn pri" data-act="${act}">Đồng ý</button></div></div></div>`}
+function setProg(d,t){document.getElementById('progbar').style.width=(t?d/t*100:0)+'%';document.getElementById('progtxt').textContent=d+'/'+t}
+
+/* ---------- sheet ---------- */
+function openSheet(id){
+  const isNew=!id;
+  const it=isNew?{id:'c'+Date.now().toString(36),n:'',q:1,w:0.5,l:'Vali 1',note:'',skip:false,base:false}:items().find(x=>x.id===id);
+  if(!it)return;
+  ui.edit=Object.assign({isNew,del:false},it);
+  drawSheet();
+  document.getElementById('scrim').hidden=false;document.getElementById('sheet').hidden=false;
+  setTimeout(()=>{const f=document.getElementById(isNew?'f-n':'f-q');f&&f.focus()},50);
+}
+function drawSheet(){
+  const e=ui.edit;
+  document.getElementById('sheetin').innerHTML=`<h3>${e.isNew?'Thêm món':'Sửa món'}</h3>
+  ${e.base?`<div><strong>${esc(e.n)}</strong>${e.note?`<div class="hint">${esc(e.note)}</div>`:''}</div>`:
+   `<div class="fld"><label for="f-n">Tên món</label><input id="f-n" value="${esc(e.n)}" placeholder="Ví dụ: Bình giữ nhiệt"></div>`}
+  <div class="two"><div class="fld"><label for="f-q">Số lượng</label><input id="f-q" type="number" inputmode="numeric" min="0" step="1" value="${esc(e.q)}"></div>
+  <div class="fld"><label for="f-w">Kg / 1 cái</label><input id="f-w" type="number" inputmode="decimal" min="0" step="0.01" value="${esc(e.w)}"></div></div>
+  <div class="fld"><span class="l">Để ở đâu</span><div class="seg">${LOCS.map(l=>`<button type="button" data-setloc="${l}" aria-pressed="${e.l===l}">${SHORT[l]}</button>`).join('')}</div></div>
+  <button type="button" class="chip tgl" id="f-skip" aria-pressed="${!!e.skip}" style="justify-self:start">Không mang món này</button>
+  ${e.del?confirmBox('Xoá món này khỏi danh sách?','do-del'):''}
+  <div class="acts">${!e.isNew&&!e.base?'<button class="btn dng" data-act="del">Xoá</button>':''}${!e.isNew&&e.base&&S.over[e.id]?'<button class="btn link" data-act="restore">Về mặc định</button>':''}
+  <div class="r"><button class="btn" data-act="close">Huỷ</button><button class="btn pri" data-act="save">Lưu</button></div></div>`;
+}
+function closeSheet(){ui.edit=null;document.getElementById('scrim').hidden=true;document.getElementById('sheet').hidden=true}
+function readSheet(){
+  const e=ui.edit;const n=document.getElementById('f-n');
+  if(n)e.n=n.value.trim();
+  e.q=Math.max(0,parseFloat(document.getElementById('f-q').value)||0);
+  e.w=Math.max(0,parseFloat(String(document.getElementById('f-w').value).replace(',','.'))||0);
+}
+function saveSheet(){
+  readSheet();const e=ui.edit;
+  if(!e.base&&!e.n){const n=document.getElementById('f-n');n.focus();n.style.borderColor='var(--bad)';return}
+  if(e.base){
+    const seed=SEED.secs.flatMap(s=>s.items).find(x=>x.id===e.id);
+    const o={};['q','w','l'].forEach(k=>{if(e[k]!=seed[k])o[k]=e[k]});if(e.skip)o.skip=true;
+    if(Object.keys(o).length)S.over[e.id]=o;else delete S.over[e.id];
+  }else{
+    const c={id:e.id,n:e.n,q:e.q,w:e.w,l:e.l,note:e.note||''};
+    const i=S.custom.findIndex(x=>x.id===e.id);if(i>=0)S.custom[i]=c;else S.custom.push(c);
+    if(e.skip)S.over[e.id]={skip:true};else delete S.over[e.id];
+  }
+  if(e.skip)delete S.packed[e.id];
+  closeSheet();save();render();
+}
+
+/* ---------- events ---------- */
+document.addEventListener('click',ev=>{
+  const t=ev.target.closest('button,[data-tick]');if(!t)return;
+  const d=t.dataset;
+  if(t.id==='tab-pack'||t.id==='tab-pre'){ui.tab=t.id==='tab-pack'?'pack':'pre';ui.confirm=null;render();window.scrollTo(0,0);return}
+  if(t.id==='fab'){openSheet(null);return}
+  if(t.id==='f-skip'){readSheet();ui.edit.skip=!ui.edit.skip;drawSheet();return}
+  if(d.tick){S.packed[d.tick]?delete S.packed[d.tick]:S.packed[d.tick]=1;save();render();return}
+  if(d.pre){const s=S.pre[d.pre]||(S.pre[d.pre]={});s[d.k]=!s[d.k];save();render();return}
+  if(d.loc){ui.loc=d.loc;render();return}
+  if(d.hide){ui.hide=!ui.hide;render();return}
+  if(d.edit){openSheet(d.edit);return}
+  if(d.setloc){readSheet();ui.edit.l=d.setloc;drawSheet();return}
+  switch(d.act){
+    case 'reset-pack':case 'reset-pre':ui.confirm=d.act;render();break;
+    case 'cancel':if(ui.edit){ui.edit.del=false;drawSheet()}else{ui.confirm=null;render()}break;
+    case 'do-reset-pack':S.packed={};ui.confirm=null;save();render();break;
+    case 'do-reset-pre':S.pre={};ui.confirm=null;save();render();break;
+    case 'close':closeSheet();break;
+    case 'save':saveSheet();break;
+    case 'del':readSheet();ui.edit.del=true;drawSheet();break;
+    case 'do-del':{const id=ui.edit.id;S.custom=S.custom.filter(x=>x.id!==id);delete S.over[id];delete S.packed[id];closeSheet();save();render();break}
+    case 'restore':delete S.over[ui.edit.id];closeSheet();save();render();break;
+  }
+});
+document.getElementById('scrim').addEventListener('click',closeSheet);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&ui.edit)closeSheet()});
+document.addEventListener('change',e=>{
+  const l=e.target.dataset&&e.target.dataset.shell;
+  if(l){S.cfg[l].shell=Math.max(0,parseFloat(String(e.target.value).replace(',','.'))||0);save();render();const det=document.querySelector('details.cfg');if(det)det.open=true}
+});
+
+/* Android back button (Capacitor App plugin) */
+try{const App=window.Capacitor&&window.Capacitor.Plugins&&window.Capacitor.Plugins.App;
+ if(App)App.addListener('backButton',()=>{
+  if(ui.edit){closeSheet();return}
+  if(ui.confirm){ui.confirm=null;render();return}
+  if(ui.tab!=='pack'){ui.tab='pack';render();return}
+  App.exitApp();
+ });}catch(e){}
+render();
+})();
+</script>
+
+</body></html>
